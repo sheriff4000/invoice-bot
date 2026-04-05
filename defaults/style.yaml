@@ -1,0 +1,32 @@
+# Invoice Style Configuration
+# All values are optional - defaults will be used for any missing values.
+
+# Colors (hex)
+primary_color: "#2C3E50"      # Headers, company name
+accent_color: "#3498DB"       # Lines, borders, highlights
+text_color: "#333333"         # Body text
+muted_color: "#7F8C8D"        # Secondary text (labels, notes)
+
+# Fonts (built-in: helvetica, courier, times — or path to a .ttf file)
+font_family: "helvetica"
+header_font_size: 24
+subheader_font_size: 12
+body_font_size: 10
+small_font_size: 8
+
+# Layout (mm)
+logo_max_width: 40
+logo_max_height: 20
+page_margin: 15
+
+# Table
+line_item_stripe: true        # Alternating row colors in items table
+stripe_color: "#F0F4F8"
+
+# Header
+header_alignment: "left"      # left, right, center
+show_divider_line: true
+divider_line_width: 0.5
+
+# Footer
+footer_text: "Thank you for your business!"

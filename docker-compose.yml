@@ -1,0 +1,13 @@
+services:
+  invoice-bot:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    # volumes:
+      # Mount custom style file (optional)
+      # - ./my-style.yaml:/app/custom-style.yaml
+      # Mount company logo (optional)
+      # - ./logo.png:/app/logo.png
+    environment:
+      - TZ=UTC

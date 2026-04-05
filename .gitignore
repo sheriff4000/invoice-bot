@@ -1,0 +1,4 @@
+.env
+invoice-bot
+*.pdf
+*.exe
