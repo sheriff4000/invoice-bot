@@ -2,3 +2,11 @@
 invoice-bot
 *.pdf
 *.exe
+
+# Terraform
+deploy/*.tfstate
+deploy/*.tfstate.*
+deploy/.terraform/
+deploy/.terraform.lock.hcl
+deploy/invoice-bot-key.pem
+deploy/terraform.tfvars
